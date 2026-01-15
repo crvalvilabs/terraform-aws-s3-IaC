@@ -1,0 +1,13 @@
+#Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.txt
+
+# Crash log files
+crash.log
+
+# Exclude directories
+resource/
+plan/
