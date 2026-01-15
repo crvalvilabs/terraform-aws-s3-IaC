@@ -91,13 +91,13 @@ terraform init
 <li>Revisar el plan</li>
 
 ```bash
-terraform plan -var-file="dev.tfvars"
+terraform plan -var-file=dev.tfvars --out "path/name.plan"
 ```
 
 <li>Aplicar cambios</li>
 
 ```bash
-terraform apply -var-file="dev.tfvars"
+terraform apply -var-file=dev.tfvars "path/plan"
 ```
 </ol>
 
